@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(tu.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 290px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    text-align: center;
+    border-radius: 24px;
+    border-color: #2ecc71;
+
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 220px;
+    border-color: #2ecc71;
+}
+* {box-sizing: border-box}
+
+button:hover {
+  opacity:1;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* Extra styles for the cancel button */
+.loginbtn {
+  padding: 14px 21px;
+  background-color: #0000;
+  border: 2px solid #3498db;
+  border-radius: 24px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.loginbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  border: 2px solid #3498db;
+  background-color: #0000;
+  border-radius: 24px;
+}
